@@ -1,0 +1,13 @@
+// ===============================
+// Íconos sociales
+// ===============================
+.social-icons {
+    a {
+      font-size: 1.5rem;
+      text-decoration: none;
+  
+      &:hover {
+        color: darken($color-primary, 20%);
+      }
+    }
+  }

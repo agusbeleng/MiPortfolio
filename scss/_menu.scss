@@ -1,0 +1,24 @@
+// ===============================
+// Menú en columna
+// ===============================
+.menu-column {
+    @include flex-column-center(15px);
+  
+    a {
+      width: 220px;
+      padding: 10px 20px;
+      text-align: center;
+      background-color: $color-primary-light;
+      border-radius: 8px;
+      text-decoration: none;
+      color: $color-primary;
+      font-weight: bold;
+      border: 1px solid $color-border;
+      @include transition(background-color); 
+      @include hover-zoom;   
+      
+      &:hover {
+        background-color: $color-primary-hover;
+      }
+    }
+  }
